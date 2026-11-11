@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #00000018;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #24324a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid #bbb;
+}
+
+button {
+    border: 0;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#employeeList {
+    list-style: none;
+    padding: 0;
+}
+
+#employeeList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    background: #eef2ff;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background: #dc2626;
+    padding: 8px 12px;
+}
+
+.delete-button:hover {
+    background: #b91c1c;
+}
+
+#emptyMessage {
+    text-align: center;
+    color: #666;
+}
